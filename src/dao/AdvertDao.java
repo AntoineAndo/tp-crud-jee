@@ -36,6 +36,8 @@ public class AdvertDao {
 			}
 		}
 	
+		
+		
 		public List<Advert> getAllAdverts(){
 			List<Advert> newList = new ArrayList<Advert>();
 			String query = "SELECT * FROM ADVERT";
